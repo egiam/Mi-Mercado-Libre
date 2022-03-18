@@ -15,6 +15,7 @@ header{
     width: 100%;
     height: 100px;
     display: block;
+    box-sizing: border-box;
 }
 
 .inner_header{
@@ -22,4 +23,18 @@ header{
     height: 100%;
     display: block;
     margin: 0 auto;
+}
+
+.logo-mla{
+    background-image: url(https://http2.mlstatic.com/frontend-assets/ui-navigation/5.18.9/mercadolibre/logo__large_plus.png);
+    height: 34px;
+    top: 11px;
+    width: 134px;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    text-indent: -999px;
+    position: absolute;
+    left: 10px;
+    display: inline-block;
+    box-shadow: none;
 }
